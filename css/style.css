@@ -1,0 +1,74 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+.container{
+	width:80%;
+	margin:auto;
+	background-color:violet;
+	border:2px solid black;
+	padding:20px;
+	
+}
+.col{
+	width:90%;
+	display:flex;
+	flex-wrap:wrap;
+	margin:auto;
+}
+.row{
+	width:100%;
+	
+	
+}
+.head{
+	font-size:40px;
+	padding:10px;
+	text-align:center;
+	color:red;
+	width:100%;
+}
+.map{
+	color:white;
+	margin:auto;
+	border:2px solid white;
+	padding:10px;
+	width:40%;
+	margin-left:50px;
+}
+.phone{
+	color:white;
+	margin:auto;
+	border:2px solid white;
+	padding:10px;
+	width:40%;
+}
+.form{
+	background-color:white;
+	padding:50px;
+	margin-left:20px;
+	width:100%;
+	margin-top:20px;
+}
+.form-name input{
+	width:100%;
+	padding:15px;
+	border:3px solid black;
+	color:#000;
+}
+.form-name textarea{
+	width:100%;
+	padding:15px;
+	border:3px solid black;
+	color:#000;
+}
+.form-submit input{
+	width:100%;
+	padding:10px;
+	margin-top:20px;
+	border:3px solid black;
+	background-color:blue;
+	text-align:center;
+}
+	
